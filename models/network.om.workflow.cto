@@ -1,0 +1,49 @@
+namespace network.om.workflow
+import network.om.*
+
+enum TaskType {
+  o ASSEMBLING    
+  o QUALITY_CONTROL
+  o TESTING    
+  o PACKAGING    
+}
+
+enum ProcessResult {
+  o PENDING   
+  o PASS    
+  o FAIL
+}
+
+asset Task identified by taskId {
+  o String taskId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/ 
+  o String title     
+  o String description  
+  o Integer sequence default=1    
+  --> Product product
+  o DateTime createdOn
+  o DateTime updatedOn optional
+  o DateTime deletedOn optional
+}
+  
+// Tasks in a workflow must be completed in sequence.
+asset Workflow identified by workflowId {
+  o String workflowId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/ 
+  o String title     
+  o String description  
+  --> Task[] tasks
+  o DateTime createdOn
+  o DateTime updatedOn optional
+  o DateTime deletedOn optional 
+}
+  
+// Processor must be authorized by a manufacturer.
+asset Process identified by processId {
+    o String processId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/ 
+    o ProcessResult result default='PENDING'     
+    --> Task task
+    --> Person processor  
+  	--> Contract contract
+    o DateTime createdOn
+    o DateTime completedOn optional                    
+}
+ 

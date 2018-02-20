@@ -1,0 +1,33 @@
+namespace network.om.token
+import network.om.Person
+
+// only bank can depositFund
+transaction depositFund {
+  o Double amount
+  --> Person to   
+  o String confirmationNumber
+  o String memo
+  --> Organization bank
+  o DateTime createdOn  
+}
+  
+// transfer 
+transaction transferFund {
+  o Double amount
+  --> Person fromPerson
+  --> Person toPerson
+  --> Organization fromOrg
+  --> Organization toOrg
+  o String memo
+  o DateTime createdOn  
+}
+  
+// only account owner can withdraw fund 
+transaction withdrawFund {
+  o Double amount
+  --> Person from  
+  o String confirmationNumber
+  o String memo
+  --> Organization toBank
+  o DateTime createdOn 
+}
