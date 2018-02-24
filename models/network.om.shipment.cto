@@ -1,0 +1,22 @@
+namespace network.om.shipment
+
+import network.om.product.Part
+
+asset Shipment identified by shipmentId {
+  o String shipmentId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/
+  o String trackingNumber  
+  o DateTime acceptedOn optional   
+  o DateTime createdOn     
+}
+
+  // release fund from consumer balance
+transaction acceptShipment {
+  --> Shipment shipment
+  o DateTime createdOn      
+}
+
+// penalty: 1% to sender 
+transaction rejectShipment {
+  --> Shipment shipment
+  --> Shipment newShipment  
+}  

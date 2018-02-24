@@ -1,0 +1,22 @@
+namespace network.om.collateral
+
+import network.om.product.Part
+import network.om.contract.Contract
+import network.om.product.Product
+
+concept CollateralPart {
+  --> Part part
+  --> Contract contract  
+  o Double amount default=0.0
+  o DateTime heldOn
+  o DateTime releasedOn  
+}    
+  
+concept CollateralProduct {
+  --> Product product
+  --> Contract contract
+  o Double amount 
+  o DateTime heldOn
+  o DateTime releasedOn  
+}    
+  

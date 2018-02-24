@@ -1,5 +1,7 @@
-namespace network.om.token
+namespace network.om.currency
+
 import network.om.Person
+import network.om.Organization
 
 // only bank can depositFund
 transaction depositFund {

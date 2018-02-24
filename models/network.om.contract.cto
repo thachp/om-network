@@ -1,0 +1,91 @@
+namespace network.om.contract
+
+import network.om.product.Product
+import network.om.Person
+import network.om.product.Component
+import network.om.Organization
+import network.om.product.Part
+
+enum ContractStatus {
+  o PROPOSED
+  o SOURCING
+  o APPROVED
+  o PRODUCING
+  o SERVICING  
+  o SHIPPING    
+  o CANCELLED
+  o TERMINATED  
+  o REVERSED    
+  o COMPLETED      
+}
+
+asset Contract identified by contractId {
+  o String contractId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/  
+  o ContractStatus contractStatus default="PROPOSED"
+  --> Product product  
+  --> Person orderer  
+    
+  // preferences
+  o Component[] preferredComponents optional
+  o Organization[] preferredOrganizations optional  
+  
+  // collection of asking price for manufacturing the product
+  o askProduct[] estimateProducts optional
+  
+  // collection of asking price for sourced parts
+  o askPart[] estimateParts optional  
+  
+  // source manufacturer and parts
+  --> Organization sourcedManufacturer optional
+  --> Part[] sourcedParts optional
+  
+  o DateTime createdOn
+  o DateTime updatedOn optional
+  o DateTime deletedOn optional
+}
+
+// propose a new contract 
+// Person who propose a contract must have enough token in balance.
+transaction ProposeContract {
+  o String contractId  
+  o ContractStatus contractStatus
+  --> Product product
+  --> Person orderer
+  o Component[] preferredComponents optional
+  o Organization[] preferredOrganizations optional    
+  o DateTime createdOn  
+}
+
+event ProposeContractEvent {
+  o String contractId  
+  --> Person orderer  
+}
+
+// only owner to amend a contract
+transaction AmendContract {
+    o Double amount
+    --> Contract contract
+    --> Person owner
+}
+
+// contract owner can void a contract
+// penalties: 1%  
+transaction VoidContract {
+    --> Contract contract
+    --> Person owner
+}
+    
+  
+transaction askProduct {
+  o Double amount  
+  --> Contract contract
+  --> Person accountManager
+}
+
+transaction askPart {
+  o Double amount
+  --> Contract contract
+  --> Part part
+  --> Person accountManager  
+}  
+  

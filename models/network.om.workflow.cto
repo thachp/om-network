@@ -1,17 +1,20 @@
 namespace network.om.workflow
-import network.om.*
+
+import network.om.product.Product
+import network.om.Person
+import network.om.contract.Contract
+
+enum ProcessResult {
+  o PENDING   
+  o PASS    
+  o FAIL
+}
 
 enum TaskType {
   o ASSEMBLING    
   o QUALITY_CONTROL
   o TESTING    
   o PACKAGING    
-}
-
-enum ProcessResult {
-  o PENDING   
-  o PASS    
-  o FAIL
 }
 
 asset Task identified by taskId {
@@ -46,4 +49,13 @@ asset Process identified by processId {
     o DateTime createdOn
     o DateTime completedOn optional                    
 }
- 
+  
+transaction createProcess {
+  --> Task task  
+  --> Process process
+}
+
+transaction endProcess {
+  --> Task task  
+  o DateTime completedOn
+}

@@ -1,0 +1,42 @@
+namespace network.om.product
+
+import network.om.workflow.Workflow
+import network.om.Person
+
+enum ProductVisibility {
+  o PUBLIC // 
+  o PRIVATE // only authorized person and organization can view transactions for this product
+}
+
+asset Product identified by productId {
+  o String productId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/
+  o String title
+  o String description
+  o Integer upc optional
+  -->Part[] parts optional 
+  -->Workflow workflow optional
+  -->Person creator // creator get 1% of every transaction for 3 years
+  o DateTime createdOn
+  o DateTime updatedOn optional
+  o DateTime deletedOn optional     
+}
+
+
+asset Component identified by componentId {
+  o String componentId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/
+  o String title   
+  o String description  
+  o String sn optional  
+  o String mpn optional 
+  o Integer upc optional 
+  o DateTime createdOn
+  o DateTime updatedOn optional
+  o DateTime deletedOn optional
+} 
+  
+asset Part identified by partId {
+  o String partId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/
+  o Integer sequence
+  o Integer count default=0
+  --> Component component
+  }
