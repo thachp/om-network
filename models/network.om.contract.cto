@@ -1,10 +1,11 @@
 namespace network.om.contract
 
 import network.om.product.Product
-import network.om.Person
-import network.om.product.Component
-import network.om.Organization
 import network.om.product.Part
+import network.om.contract.Contract
+import network.om.Person
+import network.om.Organization
+import network.om.product.Component
 
 enum ContractStatus {
   o PROPOSED
@@ -21,7 +22,8 @@ enum ContractStatus {
 
 asset Contract identified by contractId {
   o String contractId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/  
-  o ContractStatus contractStatus default="PROPOSED"
+  o ContractStatus state default="PROPOSED"
+  
   --> Product product  
   --> Person orderer  
     
@@ -38,7 +40,9 @@ asset Contract identified by contractId {
   // source manufacturer and parts
   --> Organization sourcedManufacturer optional
   --> Part[] sourcedParts optional
-  
+
+  // preferences  
+  o Double bidAmount default=0.00
   o DateTime createdOn
   o DateTime updatedOn optional
   o DateTime deletedOn optional
@@ -48,24 +52,26 @@ asset Contract identified by contractId {
 // Person who propose a contract must have enough token in balance.
 transaction ProposeContract {
   o String contractId  
-  o ContractStatus contractStatus
   --> Product product
   --> Person orderer
+  o Double bidAmount
   o Component[] preferredComponents optional
-  o Organization[] preferredOrganizations optional    
+  o Organization[] preferredOrganizations optional      
+  o ContractStatus state
   o DateTime createdOn  
 }
 
 event ProposeContractEvent {
-  o String contractId  
-  --> Person orderer  
+  o String contractId
+  o Double bidAmount
+  --> Person orderer      
 }
 
 // only owner to amend a contract
 transaction AmendContract {
     o Double amount
     --> Contract contract
-    --> Person owner
+    --> Person owner    
 }
 
 // contract owner can void a contract
@@ -74,8 +80,7 @@ transaction VoidContract {
     --> Contract contract
     --> Person owner
 }
-    
-  
+
 transaction askProduct {
   o Double amount  
   --> Contract contract
@@ -88,4 +93,3 @@ transaction askPart {
   --> Part part
   --> Person accountManager  
 }  
-  
