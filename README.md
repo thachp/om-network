@@ -1,12 +1,20 @@
 # Open Market Network
 
-Open Market Network is a blockchain marketplace for decentralization of e-commerce transactions; buying, selling, distribution of goods ands services.
+Open Market Network is a blockchain marketplace exist to decentralize e-commerce transactions.  A new form of shopping platform for buying, selling, distribution of tangible goods and possibly services.
 
-* Transparent - Buying / Selling  transactions are publicly available.
-* Anonymous Buyers - Buyers do not need to disclose their identify as such as first and last name.
-* Reward innovations - Innovators are guaranteed 1% of every goods purchased in the network.
-* Reward consumerism - More consumption, more wealth for network participants.
-* Automate supply chain management and business processes  
+* Transparency - Buying / selling / sourcing transactions are public information. Transactions are auditable and trackable down to material costs, assembling, quality control, etc...
+
+* Anonymous Buyers - Buyers do not need to disclose their identify such as first and last name.
+
+* Reward innovations - Network guaranteed innovators of goods are guaranteed 1% of every purchases in the network.
+
+* Reward consumerism -  Increase in goods consumption will yield more wealth for network participants.
+
+* Automate supply chain management and business processes.  Network will automatically select business suppliers for parts and goods base on agreed consensys.
+
+* Delegate trusts to the network and not participants.  Consumers could trust the network to deliver purchased goods. Suppliers, manufacturers, and service providers could trust the network to get paid for committing their contractual obligations.
+*
+* Realtime Market Price.  Consumer pricing are guaranteed perfect based on realtime network data such as supply cost, market demand, and logistic costs.
 
 
 ### Wealth Distribution Problem
