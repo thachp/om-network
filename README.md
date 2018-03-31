@@ -1,14 +1,13 @@
 # Open Market Network
 
-Open Market Network is a blockchain network for decentralization of e-commerce transactions; buying, selling, distribution of goods ands services.
+Open Market Network is a blockchain marketplace for decentralization of e-commerce transactions; buying, selling, distribution of goods ands services.
 
-Provide online marketplace for participants to buy and selling tangible products and services.
+* Transparent - Buying / Selling  transactions are publicly available.
+* Anonymous Buyers - Buyers do not need to disclose their identify as such as first and last name.
+* Reward innovations - Innovators are guaranteed 1% of every goods purchased in the network.
+* Reward consumerism - More consumption, more wealth for network participants.
+* Automate supply chain management and business processes  
 
-> Transparent - All transactions are available to everyone.
-
-> Reward mechanism for high consumption. More consumption, more wealth get distributed for participants.
-> 
-> Automate supply chain management and business processes  
 
 ### Wealth Distribution Problem
 
@@ -35,4 +34,3 @@ https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-
 ### Centralization of Logistic Businesses
 
 > Logistic services are becoming centralized to only few logistic companies in the United States.
-
