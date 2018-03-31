@@ -8,13 +8,13 @@ What the network aim to solve?  To build a share economy that benefits everyone,
 
 * Transparency - Buying / selling / sourcing transactions are public information. Transactions are auditable and trackable down to material costs, assembling, quality control, etc...
 
-* Anonymous Participants - Participants do not need to disclose their identity such as first and last name. Network guaranteed anomity to confidential information such as cost of goods sold.
+* Anonymous Participants - Participants do not need to disclose their identity such as first and last name. Network guaranteed anomity of confidential information such as cost of goods sold.
 
-* Reward innovations - Network guaranteed innovators of goods 1%  for every goods sold in the network.
+* Reward innovations - Network guaranteed innovators of goods 1% for every goods sold on the network for 5 years.
 
-* Reward consumerism -  Increase in goods consumption yield more wealth for network participants through the NETWORK REWARD POOL, which reward participants base on their stakes and account activities.
+* Reward consumerism -  Increase in goods consumption yield more wealth for network participants through the reward pool, which reward participants base on their stakes and account activities.
 
-* Automate supply chain management and business processes.  Network will automatically select business suppliers for parts and goods base on agreed consensys. Network apply AI modeling to determine best business processes and automate tasks like generating shipping label.
+* Automate supply chain management and buying-selling business processes.  Network will automatically select business suppliers for parts and goods base on agreed consensys. Network apply AI modeling to determine best business processes and automate tasks like generating shipping label.
 
 * Delegate trusts to the network and not participants.  Consumers could trust the network to deliver purchased goods. Suppliers, manufacturers, and service providers could trust the network to get paid for committing their contractual obligations.
 
