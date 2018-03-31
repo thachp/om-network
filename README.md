@@ -2,17 +2,19 @@
 
 Open Market Network is an open blockchain marketplace exist to decentralize e-commerce transactions.  A new form of shopping platform for buying, selling, shipping of tangible goods and possibly services.
 
+What the network aim to solve?  To build a human economy that benefits everyone, not just the privileged few.
+
 ## Highlights ##
 
 * Transparency - Buying / selling / sourcing transactions are public information. Transactions are auditable and trackable down to material costs, assembling, quality control, etc...
 
-* Anonymous Participants - Participants do not need to disclose their identity such as first and last name. Network gauranteed anomonity to all pariticipants.
+* Anonymous Participants - Participants do not need to disclose their identity such as first and last name. Network guaranteed anomity to confidential information such as cost of goods sold.
+*
+* Reward innovations - Network guaranteed innovators of goods 1%  for every goods sold in the network.
 
-* Reward innovations - Network guaranteed innovators of goods are guaranteed 1% of every purchases in the network.
+* Reward consumerism -  Increase in goods consumption yield more wealth for network participants through the NETWORK REWARD POOL, which reward participants base on their stakes and account activities.
 
-* Reward consumerism -  Increase in goods consumption will yield more wealth for network participants.
-
-* Automate supply chain management and business processes.  Network will automatically select business suppliers for parts and goods base on network consensys.
+* Automate supply chain management and business processes.  Network will automatically select business suppliers for parts and goods base on agreed consensys. Network apply AI modeling to determine best business processes and automate tasks like generating shipping label.
 
 * Delegate trusts to the network and not participants.  Consumers could trust the network to deliver purchased goods. Suppliers, manufacturers, and service providers could trust the network to get paid for committing their contractual obligations.
 
@@ -24,7 +26,35 @@ Open Market Network is an open blockchain marketplace exist to decentralize e-co
 
 * Accountability - All participants (Consumers, Manufacturers, Logistics, Factory, and Suppliers) are accountable for committing their parts of the contract to the fullest.  Network will incur network fees should participants fail their commitments.  For example, the network would incur 1% fees to supplies, if they ship defective parts to a manufacturer.
 
-## How it Works? ##
+
+### Wealth Distribution Problem  ###
+
+'Something is very wrong' with how our modern e-capitalism work.
+
+Raise in consumption and consumerism have made very few people / entities very wealthy, while billions of people are starving and having difficulty getting through basic necessity needed for decent living.
+
+https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-99-percent-160117-en.pdf
+
+
+> The richest 1% hold about 38% of all privately held wealth in the United States. while the bottom 90% held 73% of all debt. According to The New York Times, the richest 1 percent in the United States now own more wealth than the bottom 90 percent. (https://en.wikipedia.org/wiki/Wealth_inequality_in_the_United_States)
+
+> The globe’s richest 1% own half the world’s wealth, according to a new report highlighting the growing gap between the super-rich and everyone else. (https://www.theguardian.com/inequality/2017/nov/14/worlds-richest-wealth-credit-suisse)
+
+> Just 42 people own the same amount of wealth as the poorest 50 percent worldwide.
+(https://www.cnbc.com/2018/01/22/wef-18-oxfam-says-worlds-richest-1-percent-get-82-percent-of-the-wealth.html)
+
+
+### Centralization of Retail / E-commerce Businesses
+
+> Consumers purchase goods and services from centralized source of retail authority. Owners and shareholders wealth increased as more buyers consume their goods and services.
+
+
+### Centralization of Logistic Businesses
+
+> Logistic services are becoming centralized to only few logistic companies in the United States.
+
+
+## How the NETWORK Works? ##
 
 Inventors list goods on the network. Inventors design goods, provide specifications, and quality control processes to manufacture goods.  Goods could be any tangible products such as house appliances, computer systems, cellphones, automobile, clothes, etc...
 
@@ -59,41 +89,13 @@ NETWORK calculate optimal scenario and approve contracts based on various factor
 
 ## Fees ##
 
-* 2.5% Network fees for opening contract.
-* 1.5% Penalty fees if suppliers / manufacturers fail to deliver parts or goods to next participant.
+* 2.5% Network fees for opening contracts.
+* 1.5% Penalty fees if suppliers / manufacturers fail to meet their contract obligations.
 
 ## Rewards ##
 
 Network fees and penalty Fees getting added to the network reward pool, which get distributed to all participants of the network every month.
 
-Reward calculations are 50% Proof of Stake and 50% Proof of Activities.
+Reward calculations is based on 50% Proof of Stake and 50% Proof of Activities.
 
-Participants get more reward from the NETWORK REWARD POOL based on the number of tokens number in their wallet and for being active participants of the network.
-
-### Wealth Distribution Problem  ###
-
-In this section, I will try to explain why there is a need for this kind of network?
-
-'Something is very wrong' with how our modern e-capitalism work.
-
-Raise in consumption and consumerism have made very few people / entities very wealthy, while billions of people are starving and having difficulty getting through basic necessity needed for decent living.
-
-https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-99-percent-160117-en.pdf
-
-
-> The richest 1% hold about 38% of all privately held wealth in the United States. while the bottom 90% held 73% of all debt. According to The New York Times, the richest 1 percent in the United States now own more wealth than the bottom 90 percent. (https://en.wikipedia.org/wiki/Wealth_inequality_in_the_United_States)
-
-> The globe’s richest 1% own half the world’s wealth, according to a new report highlighting the growing gap between the super-rich and everyone else. (https://www.theguardian.com/inequality/2017/nov/14/worlds-richest-wealth-credit-suisse)
-
-> Just 42 people own the same amount of wealth as the poorest 50 percent worldwide.
-(https://www.cnbc.com/2018/01/22/wef-18-oxfam-says-worlds-richest-1-percent-get-82-percent-of-the-wealth.html)
-
-
-### Centralization of Retail / E-commerce Businesses
-
-> Consumers purchase goods and services from centralized source of retail authority. Owners and shareholders wealth increased as more buyers consume their goods and services.
-
-
-### Centralization of Logistic Businesses
-
-> Logistic services are becoming centralized to only few logistic companies in the United States.
+Participants get more reward if they have more tokens in the wallet and for being active members of the network.
