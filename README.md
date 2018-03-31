@@ -1,4 +1,4 @@
-# Open Market Network
+# Open Market Network [ROUGH DRAFT]
 
 Open Market Network is an open blockchain marketplace exist to decentralize e-commerce transactions.  A new form of shopping platform for buying, selling, shipping of tangible goods and possibly services.
 
