@@ -6,13 +6,13 @@ Open Market Network is an open blockchain marketplace exist to decentralize e-co
 
 * Transparency - Buying / selling / sourcing transactions are public information. Transactions are auditable and trackable down to material costs, assembling, quality control, etc...
 
-* Anonymous Buyers - Buyers do not need to disclose their identify such as first and last name.
+* Anonymous Participants - Participants do not need to disclose their identity such as first and last name. Network gauranteed anomonity to all pariticipants.
 
 * Reward innovations - Network guaranteed innovators of goods are guaranteed 1% of every purchases in the network.
 
 * Reward consumerism -  Increase in goods consumption will yield more wealth for network participants.
 
-* Automate supply chain management and business processes.  Network will automatically select business suppliers for parts and goods base on agreed consensys.
+* Automate supply chain management and business processes.  Network will automatically select business suppliers for parts and goods base on network consensys.
 
 * Delegate trusts to the network and not participants.  Consumers could trust the network to deliver purchased goods. Suppliers, manufacturers, and service providers could trust the network to get paid for committing their contractual obligations.
 
@@ -26,34 +26,53 @@ Open Market Network is an open blockchain marketplace exist to decentralize e-co
 
 ## How it Works? ##
 
-Inventors list goods on the network. Inventors design goods, provide specifications, and quality control processes to manufacture goods.  Goods could be any tangible products such as house appliances, computer systems, cellphones, automobile, clothes, etc...
+1. Inventors list goods on the network. Inventors design goods, provide specifications, and quality control processes to manufacture goods.  Goods could be any tangible products such as house appliances, computer systems, cellphones, automobile, clothes, etc...
 
 Inventors forgoes their intellectual property rights to the network.  In returns, the network guaranteed 1% rewards for every transactions associated their goods sold by the network for 5 years.
 
-Consumers review listed good available on the network.  Open a CONTRACT with the network to purchase a good listed an inventor.  Consumers must list a BID amount which he is following to pay for the good.
+2. Consumers review listed good available on the network.  Open a CONTRACT with the network to purchase a good listed an inventor.  Consumers must list a BID amount which he is following to pay for the good.
 
-Contract BID amount is only visible to the consumer and the network.
+Contract BID amount is only visible between consumer and the network.
 Suppliers, Manufacturers, Logistics do not have access to view BID amount.
 
 Network Fees:  Consumer must pay 2.5% network fees on top of BID amount.
 
 Restrictions:  The consumer must have tokens balance equal to his bid amount plus 2.5% of BID amount in order to open contract.
 
-Suppliers subscribe to open contracts and agreed to source parts in order to manufacture listed goods.
+3. Suppliers subscribe to open contracts and agreed to source parts in order to manufacture listed goods. Suppliers must provide ASK amount for parts they are willing to source.
 
+ASK Amount is only visible between the suppliers and the network.
 
+Penalty Fees: 1.5% of ASK Amount will be deducted by the network should suppliers ship defective parts.
 
+Suppliers must provide collateral equal to their ASK Price x Number of Parts needed to manufacture the good.
 
-3. Manufacturers subscribe to provide manufacturing services for listed good including
+4. Manufacturers subscribe to open contracts and place ASK amount for their labor and services.
 
-## Network Fees ##
+Manufacturing ASK Amount is only visible between the manufacturers and the network.
+
+Penalty Fees: 1.5% of ASK Amount will be deducted by the network should manufacturers fail to delivery functional goods to consumer.
+
+Restrictions: Manufacturers must provide collateral equal to their ASK amount. Manufacturers must brand the finished goods as OMN with QRCODE linking to contract detail.
+
+5. NETWORK calculate optimal scenario and approve contracts based on various factors; cost of parts, manufacturing cost, shipping cost, participants reputation, geographical region, and so forth.  Network aims to provide best pricing, and earliest delivery time of goods consumer.
+
+## Fees ##
+
+* 2.5% Network fees for opening contract.
+* 1.5% Penalty fees if suppliers / manufacturers fail to deliver parts or goods to next participant.
 
 ## Rewards ##
-50
 
+Network fees and penalty Fees getting added to the network reward pool, which get distributed to all participants of the network every month.
 
+Reward calculations are 50% Proof of Stake and 50% Proof of Activities.
 
-### Wealth Distribution Problem
+Participants get more reward from the NETWORK REWARD POOL based on the number of tokens number in their wallet and for being active participants of the network.
+
+### Wealth Distribution Problem  ###
+
+In this section, I will try to explain why there is a need for this kind of network?
 
 'Something is very wrong' with how our modern e-capitalism work.
 
