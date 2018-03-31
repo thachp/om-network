@@ -26,11 +26,11 @@ Open Market Network is an open blockchain marketplace exist to decentralize e-co
 
 ## How it Works? ##
 
-1. Inventors list goods on the network. Inventors design goods, provide specifications, and quality control processes to manufacture goods.  Goods could be any tangible products such as house appliances, computer systems, cellphones, automobile, clothes, etc...
+Inventors list goods on the network. Inventors design goods, provide specifications, and quality control processes to manufacture goods.  Goods could be any tangible products such as house appliances, computer systems, cellphones, automobile, clothes, etc...
 
 Inventors forgoes their intellectual property rights to the network.  In returns, the network guaranteed 1% rewards for every transactions associated their goods sold by the network for 5 years.
 
-2. Consumers review listed good available on the network.  Open a CONTRACT with the network to purchase a good listed an inventor.  Consumers must list a BID amount which he is following to pay for the good.
+Consumers review listed good available on the network.  Open a CONTRACT with the network to purchase a good listed an inventor.  Consumers must list a BID amount which he is following to pay for the good.
 
 Contract BID amount is only visible between consumer and the network.
 Suppliers, Manufacturers, Logistics do not have access to view BID amount.
@@ -39,7 +39,7 @@ Network Fees:  Consumer must pay 2.5% network fees on top of BID amount.
 
 Restrictions:  The consumer must have tokens balance equal to his bid amount plus 2.5% of BID amount in order to open contract.
 
-3. Suppliers subscribe to open contracts and agreed to source parts in order to manufacture listed goods. Suppliers must provide ASK amount for parts they are willing to source.
+Suppliers subscribe to open contracts and agreed to source parts in order to manufacture listed goods. Suppliers must provide ASK amount for parts they are willing to source.
 
 ASK Amount is only visible between the suppliers and the network.
 
@@ -47,7 +47,7 @@ Penalty Fees: 1.5% of ASK Amount will be deducted by the network should supplier
 
 Suppliers must provide collateral equal to their ASK Price x Number of Parts needed to manufacture the good.
 
-4. Manufacturers subscribe to open contracts and place ASK amount for their labor and services.
+Manufacturers subscribe to open contracts and place ASK amount for their labor and services.
 
 Manufacturing ASK Amount is only visible between the manufacturers and the network.
 
@@ -55,7 +55,7 @@ Penalty Fees: 1.5% of ASK Amount will be deducted by the network should manufact
 
 Restrictions: Manufacturers must provide collateral equal to their ASK amount. Manufacturers must brand the finished goods as OMN with QRCODE linking to contract detail.
 
-5. NETWORK calculate optimal scenario and approve contracts based on various factors; cost of parts, manufacturing cost, shipping cost, participants reputation, geographical region, and so forth.  Network aims to provide best pricing, and earliest delivery time of goods consumer.
+NETWORK calculate optimal scenario and approve contracts based on various factors; cost of parts, manufacturing cost, shipping cost, participants reputation, geographical region, and so forth.  Network aims to provide best pricing, and earliest delivery time of goods consumer.
 
 ## Fees ##
 
