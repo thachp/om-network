@@ -2,14 +2,14 @@
 
 Open Market Network is an open blockchain marketplace exist to decentralize e-commerce transactions.  A new form of shopping platform for buying, selling, shipping of tangible goods and possibly services.
 
-What the network aim to solve?  To build a human economy that benefits everyone, not just the privileged few.
+What the network aim to solve?  To build a share economy that benefits everyone, not just the few.
 
 ## Highlights ##
 
 * Transparency - Buying / selling / sourcing transactions are public information. Transactions are auditable and trackable down to material costs, assembling, quality control, etc...
 
 * Anonymous Participants - Participants do not need to disclose their identity such as first and last name. Network guaranteed anomity to confidential information such as cost of goods sold.
-*
+
 * Reward innovations - Network guaranteed innovators of goods 1%  for every goods sold in the network.
 
 * Reward consumerism -  Increase in goods consumption yield more wealth for network participants through the NETWORK REWARD POOL, which reward participants base on their stakes and account activities.
