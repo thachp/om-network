@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Open Market Network",
   "scripts": {
+    "start": "bash start.sh",
     "test": "mocha --recursive"
   },
   "author": "Patrick Thach",
