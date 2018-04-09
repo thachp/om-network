@@ -1,8 +1,8 @@
 # Open Market Network [ROUGH DRAFT]
 
-Open Market Network is an open blockchain marketplace exist to decentralize e-commerce transactions.  A new shopping platform for buying brand selling of products.
+Open Market Network is an open blockchain marketplace exist to decentralize retail / e-commerce transactions.  A new shopping platform for buying and selling of products online and in brick and mortar stores.
 
-What the network aim to solve?  To build a share economy in e-commerce space that benefits everyone, not just a few online marketplaces.
+What the network aim to solve?  To build a share economy in e-commerce space and retail industry that benefits everyone, not just a few online marketplaces.
 
 ## Highlights ##
 
@@ -10,27 +10,29 @@ What the network aim to solve?  To build a share economy in e-commerce space tha
 
 * Anonymous Participants - Participants do not need to disclose their identity such as first and last name. Network guaranteed anonymity of confidential and privacy information such as cost of goods sold.
 
-* Reward innovations - Network provide innovators by rewarding 1% royalty fees for every goods sold on the network for 5 years.
-
-* Reward consumerism -  More buy-sell transactions means more rewards for network participants. Network Reward Pool reward tokens to participants base on their stakes and account activities.
-
-* Automate supply chain management and retail business processes.
-
 * Delegate trusts to the network and not participants.  Consumers could trust the network to deliver purchased goods. Suppliers, manufacturers, and service providers could trust the network to get paid for fulfilling their obligations.
 
-* Realtime Market Price.  Consumer pricing are guaranteed perfect based on realtime network data such as supply cost, manufacturing cost, market demand, and logistic costs.
+* Realtime Market Price.  Eliminate the need to bargain or haggling between participants. Prices are guaranteed perfect based on network data such as supply cost, manufacturing cost, market demand, and logistic costs.
 
-* No Middlemen Cost.  Sales commissions, POS fees, advertisements, and marketing.
+* No Middlemen Cost.  Participants pay ZERO cost to buy / sell goods on the network. Sales commissions, POS fees, advertisements, and marketing.
 
 * Fraudulent Proof - All participants are required to put up collateral in order to participate in any form of transactions (buying, selling, shipping). Associated participants would lose their collateral or account balance should they commit any form of questionable acts.
 
 * Accountability - All participants are accountable for committing their parts of the contract to the fullest.  Network will charge penalty fees should participants fail their commitments.  For example, the network will charge 1% fees to suppliers, if suppliers ship defective parts to a manufacturer.
 
+* Reward innovations - Network provide innovators by rewarding 1% royalty fees for every goods sold on the network for 5 years.
+
+* Reward consumerism -  More buy-sell transactions mean more rewards for network participants. Network Reward Pool reward tokens to participants base on their stakes and account activities.
+
+* Automatic supply chain management for manufacturers, distributors, and factories.  For example, there is no need for manufacturers to source parts. Network automatically notify part suppliers to ship parts to manufacturers.
+
+* Automate e-commerce business processes. Tasks that involve logistic, invoicing, sale receipts, will be handled by the network automatically.
+
 ### Wealth Distribution Problem  ###
 
 'Something is very wrong' with how our modern e-capitalism work.
 
-Raise in consumption and consumerism have made very few people / entities very wealthy, while billions of people are starving and having difficulty getting through basic necessity needed for decent living.
+The unprecedented expansion of the global middle class fueled unprecedented consumerism.  Very few people / entities very wealthy, while billions of people are starving and having difficulty getting through basic necessity needed for decent living.
 
 https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-99-percent-160117-en.pdf
 
@@ -49,13 +51,24 @@ https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-
 
 ### Centralization of Retail / E-commerce Businesses
 
-* Consumers purchase goods and services from centralized source of retail authority. Owners and shareholders wealth increased as more buyers consume their goods and services.
+* Consumers are purchasing goods and services from only a few retail stores and e-commerce businesses.
 
+* It is becoming more difficult for brick-mortar  / mom-pop retail businesses to compete with the efficiency of retail / e-commerce giants.
+*
 
 ### Centralization of Logistic Businesses
 
-> Logistic services are becoming centralized to only few logistic companies in the United States.
+* Logistic services are becoming centralized to few logistic companies in the United States and around the globe.
 
+### Terms
+
+* The Network - Decentralized autonomous organization that is run through rules encoded as computer programs called smart contracts.
+
+* Participants - People and organizations who participate in activities on the network; buy / sell goods or services, manufacture goods, provide logistic services, producing parts, or provide collateral services.
+
+* Inventors - A type of network participants who design and provide specifications, instructions on how to produce goods.
+
+*
 
 ## How the NETWORK Works? ##
 
