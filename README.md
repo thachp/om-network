@@ -49,26 +49,32 @@ https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-
 
 (https://www.cnbc.com/2018/01/22/wef-18-oxfam-says-worlds-richest-1-percent-get-82-percent-of-the-wealth.html)
 
-### Centralization of Retail / E-commerce Businesses
+#### Centralization of Retail / E-commerce Businesses
 
 * Consumers are purchasing goods and services from only a few retail stores and e-commerce businesses.
 
 * It is becoming more difficult for brick-mortar  / mom-pop retail businesses to compete with the efficiency of retail / e-commerce giants.
-*
 
-### Centralization of Logistic Businesses
+
+#### Centralization of Logistic Businesses
 
 * Logistic services are becoming centralized to few logistic companies in the United States and around the globe.
-
+*
 ### Terms
 
 * The Network - Decentralized autonomous organization that is run through rules encoded as computer programs called smart contracts.
 
 * Participants - People and organizations who participate in activities on the network; buy / sell goods or services, manufacture goods, provide logistic services, producing parts, or provide collateral services.
 
-* Inventors - A type of network participants who design and provide specifications, instructions on how to produce goods.
+* Inventor - A type of network participants who design and provide specifications, instructions, quality process, and workflow on how to produce goods.
 
-*
+* Consumer - A type of network participants who open a contract to buy goods from the network.
+
+* Manufacturer - A type of network participants who assemble goods for the network.
+
+* Factory - A type of network participants who produce parts for the network.
+
+* Logistic - A type of network participants who offer shipping and handling services, delivery goods and parts between destinations.
 
 ## How the NETWORK Works? ##
 
