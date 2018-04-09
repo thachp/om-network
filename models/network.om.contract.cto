@@ -12,77 +12,76 @@ enum ContractStatus {
   o SOURCING
   o APPROVED
   o PRODUCING
-  o SERVICING  
-  o SHIPPING    
+  o SERVICING
+  o SHIPPING
   o CANCELLED
-  o TERMINATED  
-  o REVERSED    
-  o COMPLETED      
+  o TERMINATED
+  o REVERSED
+  o COMPLETED
 }
 
 asset Contract identified by contractId {
-  o String contractId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/  
+  o String contractId regex=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/
   o ContractStatus state default="PROPOSED"
-  
-  --> Product product  
-  --> Person orderer  
-    
+
+  --> Product product
+  --> Person orderer
+
   // preferences
   o Component[] preferredComponents optional
-  o Organization[] preferredOrganizations optional  
-  
+  o Organization[] preferredOrganizations optional
+
   // collection of asking price for manufacturing the product
   o askProduct[] estimateProducts optional
-  
+
   // collection of asking price for sourced parts
-  o askPart[] estimateParts optional  
-  
+  o askPart[] estimateParts optional
+
   // source manufacturer and parts
   --> Organization sourcedManufacturer optional
   --> Part[] sourcedParts optional
 
-  // preferences  
+  // preferences
   o Double bidAmount default=0.00
   o DateTime createdOn
   o DateTime updatedOn optional
   o DateTime deletedOn optional
 }
 
-// propose a new contract 
+// propose a new contract
 // Person who propose a contract must have enough token in balance.
 transaction ProposeContract {
-  o String contractId  
+  o String contractId
   --> Product product
   --> Person orderer
   o Double bidAmount
   o Component[] preferredComponents optional
-  o Organization[] preferredOrganizations optional      
+  o Organization[] preferredOrganizations optional
   o ContractStatus state
-  o DateTime createdOn  
+  o DateTime createdOn
 }
 
 event ProposeContractEvent {
   o String contractId
   o Double bidAmount
-  --> Person orderer      
+  --> Person orderer
 }
 
 // only owner to amend a contract
 transaction AmendContract {
     o Double amount
     --> Contract contract
-    --> Person owner    
+    --> Person owner
 }
 
 // contract owner can void a contract
-// penalties: 1%  
 transaction VoidContract {
     --> Contract contract
     --> Person owner
 }
 
 transaction askProduct {
-  o Double amount  
+  o Double amount
   --> Contract contract
   --> Person accountManager
 }
@@ -91,5 +90,5 @@ transaction askPart {
   o Double amount
   --> Contract contract
   --> Part part
-  --> Person accountManager  
-}  
+  --> Person accountManager
+}
