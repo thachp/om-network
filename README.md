@@ -132,11 +132,19 @@ NETWORK calculate optimal scenario and approve contracts based on various factor
 * 1% Penalty fees if consumers void contracts
 
 ## Rewards ##
-* Network fees and penalty Fees getting added to the network reward pool, which get distributed to all participants at the end of every month.
+* Network fees and penalty fees getting added to the network reward pool, which get distributed to all network participants every 10K transactions.
 
-* Reward calculations is based on 50% Proof of Stake and 50% Proof of Activities.
+* Participants get more reward having tokens in wallet and for being active members of the network.
 
-* Participants get more reward if they have more tokens in the wallet and for being active members of the network.
+  - 50% Proof of Stake
+  - 50% Proof of Activities.
+
+Network encourage tokens to be circulated among participants as much as possible.
+
+## Token Economy ##
+
+Max Supply: 21B OMN Coins
+
 
 ## About Us ##
 OM.NETWORK is being developed by a small team of blockchain developers.
