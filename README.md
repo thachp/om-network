@@ -95,10 +95,9 @@ https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-
 Inventors forgoes their intellectual property rights to the network.  In returns, the network guaranteed 1% rewards for every transactions associated to their goods sold on the network for 5 years.
 
 ### Consumers ###
-Consumers review listed goods on the network.  Open a CONTRACT with the network to purchase a good listed an inventor.  Consumers must list a BID amount which he is following to pay for the good.
+Consumers review listed goods on the network.  Open contracts with the network to purchase goods.  Consumers must list a BID amount which he is following to pay for the good.
 
-* Contract BID amount is only visible between consumer and the network.
-Suppliers, Manufacturers, Logistics do not have access to view BID amount.
+Contract BID amount is only visible between consumer and the network.  Suppliers, Manufacturers, Logistics do not have access to view BID amount.
 
 * Network Fees:  Consumer must pay 2.5% network fees on top of BID amount.
 
@@ -134,7 +133,6 @@ NETWORK calculate optimal scenario and approve contracts based on various factor
 * 1% Penalty fees if consumer void a contract
 
 ## Rewards ##
-
 * Network fees and penalty Fees getting added to the network reward pool, which get distributed to all participants at the end of every month.
 
 * Reward calculations is based on 50% Proof of Stake and 50% Proof of Activities.
