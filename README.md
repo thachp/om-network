@@ -1,20 +1,22 @@
 # Open Market Network [ROUGH DRAFT]
 
-Open Market Network is an open blockchain marketplace exist to decentralize retail / e-commerce transactions.  A new shopping platform for buying and selling of products online and in brick and mortar stores.
+Open Market Network is an open blockchain marketplace exist to decentralize retail and e-commerce industry.  A new shopping platform for everyone to buy and sell products.
 
 What the network aim to solve?  To build a share economy in e-commerce space and retail industry that benefits everyone, not just a few online marketplaces.
 
 ## Highlights ##
 
+* Decentralized autonomous marketplace - No single source of organizations or people have complete control over the marketplace.
+
 * Transparency - Buying / selling / sourcing transactions are public information. Transactions can be audited and trackable down to material costs, assembling, quality control, etc...
 
-* Anonymous Participants - Participants do not need to disclose their identity such as first and last name. Network guaranteed anonymity of confidential and privacy information such as cost of goods sold.
+* Anonymous Participants - Participants do not need to disclose their identity such as first and last name. Network guaranteed anonymity in confidential and privacy information such as cost of goods sold.
 
 * Delegate trusts to the network and not participants.  Consumers could trust the network to deliver purchased goods. Suppliers, manufacturers, and service providers could trust the network to get paid for fulfilling their obligations.
 
 * Realtime Market Price.  Eliminate the need to bargain or haggling between participants. Prices are guaranteed perfect based on network data such as supply cost, manufacturing cost, market demand, and logistic costs.
 
-* No Middlemen Cost.  Participants pay ZERO cost to buy / sell goods on the network. Sales commissions, POS fees, advertisements, and marketing.
+* No Middlemen Cost.  Participants pay ZERO cost to buy / sell goods on the network.
 
 * Fraudulent Proof - All participants are required to put up collateral in order to participate in any form of transactions (buying, selling, shipping). Associated participants would lose their collateral or account balance should they commit any form of questionable acts.
 
@@ -55,11 +57,9 @@ https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-
 
 * It is becoming more difficult for brick-mortar  / mom-pop retail businesses to compete with the efficiency of retail / e-commerce giants.
 
-
 #### Centralization of Logistic Businesses
 
 * Logistic services are becoming centralized to few logistic companies in the United States and around the globe.
-*
 
 ## Terms ##
 
@@ -81,10 +81,17 @@ https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-
 
 * Retailer - A type of network participants who sells goods to consumers for use.
 
+* Goods - Products listed on the network that can be purchased for consumption; house appliances, computer systems, cellphones, automobile, clothes, etc...
 
-## How the NETWORK Works? ##
+## How the network works? ##
 
-Inventors list goods on the network. Inventors design goods, provide specifications, and quality control processes to manufacture goods.  Goods could be any tangible products such as house appliances, computer systems, cellphones, automobile, clothes, etc...
+1. Inventors list goods on the network.   
+
+2. Consumers browse listed goods, open contracts with the network at price willing to pay for goods.
+
+3. Participants bid to fulfill specific parts of the contract at price willing to sell for services.
+
+4.  Network
 
 Inventors forgoes their intellectual property rights to the network.  In returns, the network guaranteed 1% rewards for every transactions associated their goods sold by the network for 5 years.
 
@@ -116,7 +123,6 @@ Restrictions: Manufacturers must provide collateral equal to their ASK amount. M
 NETWORK calculate optimal scenario and approve contracts based on various factors; cost of parts, manufacturing cost, shipping cost, participants reputation, geographical region, and so forth.  Network aims to provide best pricing, and earliest delivery time of goods consumer.
 
 ## Fees ##
-
 * 2.5% Network fees for opening contracts.
 
 ## Penalties ##
@@ -126,11 +132,11 @@ NETWORK calculate optimal scenario and approve contracts based on various factor
 
 ## Rewards ##
 
-Network fees and penalty Fees getting added to the network reward pool, which get distributed to all participants of the network every month.
+Network fees and penalty Fees getting added to the network reward pool, which get distributed to all participants at the end of every month.
 
 Reward calculations is based on 50% Proof of Stake and 50% Proof of Activities.
 
 Participants get more reward if they have more tokens in the wallet and for being active members of the network.
 
-## Donation ##
+## About Us ##
 OM.NETWORK is being developed by a small team of blockchain developers.
