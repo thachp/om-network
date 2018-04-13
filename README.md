@@ -122,7 +122,7 @@ Manufacturers subscribe to open contracts and place ASK amount for their labor a
 * Restrictions: Manufacturers must provide collateral equal to their ASK amount. Manufacturers must brand the finished goods as OMN with QRCODE linking to contract detail.
 
 ### How the network reward contracts? ###
-NETWORK calculate optimal scenario and approve contracts based on various factors; cost of parts, manufacturing cost, shipping cost, participants reputation, geographical region, and so forth.  Network aims to provide best pricing, and earliest delivery time of goods.
+NETWORK calculate optimal scenario and reward contracts based on various factors; cost of parts, manufacturing cost, shipping cost, participants reputation, geographical proximities, and so forth.  Network aims to provide best pricing and earliest delivery time of goods to consumers.
 
 ## Fees ##
 * 2.5% Network fees for opening contracts.
@@ -140,6 +140,8 @@ NETWORK calculate optimal scenario and approve contracts based on various factor
   - 50% Proof of Activities.
 
 Network encourage tokens to be circulated among participants as much as possible.
+
+* Every 2000 successful transactions add 200 tokens into reward pools
 
 ## Token Economy ##
 
