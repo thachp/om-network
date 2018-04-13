@@ -95,33 +95,41 @@ https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-
 
 5. Participants fulfill their contractual obligations.
 
+
+### Inventors ###
 Inventors forgoes their intellectual property rights to the network.  In returns, the network guaranteed 1% rewards for every transactions associated their goods sold by the network for 5 years.
 
-Consumers review listed good available on the network.  Open a CONTRACT with the network to purchase a good listed an inventor.  Consumers must list a BID amount which he is following to pay for the good.
 
-Contract BID amount is only visible between consumer and the network.
+### Consumers ###
+Consumers review listed goods on the network.  Open a CONTRACT with the network to purchase a good listed an inventor.  Consumers must list a BID amount which he is following to pay for the good.
+
+* Contract BID amount is only visible between consumer and the network.
 Suppliers, Manufacturers, Logistics do not have access to view BID amount.
 
-Network Fees:  Consumer must pay 2.5% network fees on top of BID amount.
+* Network Fees:  Consumer must pay 2.5% network fees on top of BID amount.
 
-Restrictions:  The consumer must have tokens balance equal to his bid amount plus 2.5% of BID amount in order to open contract.
+* Restrictions:  The consumer must have tokens balance equal to his bid amount plus 2.5% of BID amount in order to open contract.
 
-Suppliers subscribe to open contracts and agreed to source parts in order to manufacture listed goods. Suppliers must provide ASK amount for parts they are willing to source.
+
+### Suppliers ###
+Suppliers subscribe to open contracts and agreed to source parts in order to manufacture listed goods. Suppliers must provide ASK amount for parts they are willing to sell.
 
 ASK Amount is only visible between the suppliers and the network.
 
-Penalty Fees: 1.5% of ASK Amount will be deducted by the network should suppliers ship defective parts.
+* Penalty Fees: 1.5% of ASK Amount will be deducted by the network should suppliers ship defective parts.
 
-Suppliers must provide collateral equal to their ASK Price x Number of Parts needed to manufacture the good.
+* Suppliers must provide collateral equal to their ASK Price x Number of Parts needed to manufacture the good.
 
+### Manufacturers ###
 Manufacturers subscribe to open contracts and place ASK amount for their labor and services.
 
 Manufacturing ASK Amount is only visible between the manufacturers and the network.
 
-Penalty Fees: 1.5% of ASK Amount will be deducted by the network should manufacturers fail to delivery functional goods to consumer.
+* Penalty Fees: 1.5% of ASK Amount will be deducted by the network should manufacturers fail to delivery functional goods to consumer.
 
-Restrictions: Manufacturers must provide collateral equal to their ASK amount. Manufacturers must brand the finished goods as OMN with QRCODE linking to contract detail.
+* Restrictions: Manufacturers must provide collateral equal to their ASK amount. Manufacturers must brand the finished goods as OMN with QRCODE linking to contract detail.
 
+### How the network reward contracts? ###
 NETWORK calculate optimal scenario and approve contracts based on various factors; cost of parts, manufacturing cost, shipping cost, participants reputation, geographical region, and so forth.  Network aims to provide best pricing, and earliest delivery time of goods consumer.
 
 ## Fees ##
