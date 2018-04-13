@@ -141,7 +141,7 @@ NETWORK calculate optimal scenario and reward contracts based on various factors
 
 Network encourage tokens to be circulated among participants as much as possible.
 
-* Every 2000 successful transactions add 200 tokens into reward pools
+* Every 2000 successful transactions, network reward 200 tokens into reward pools.  
 
 ## Token Economy ##
 
