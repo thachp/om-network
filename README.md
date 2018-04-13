@@ -86,19 +86,13 @@ https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-
 ## How the network works? ##
 
 1. Inventors list goods on the network to be consumed.
-
 2. Consumers browse listed goods, open contracts with the network at price willing to pay for goods.
-
 3. Participants bid to fulfill specific clause of the contract at price willing to sell for services.
-
-4. Network calculate optimal solutions and award contract to participants. Network aims to provide best pricing, and earliest delivery time to consumer.
-
+4. Network calculate optimal solutions and award contract to participants.
 5. Participants fulfill their contractual obligations.
 
-
 ### Inventors ###
-Inventors forgoes their intellectual property rights to the network.  In returns, the network guaranteed 1% rewards for every transactions associated their goods sold by the network for 5 years.
-
+Inventors forgoes their intellectual property rights to the network.  In returns, the network guaranteed 1% rewards for every transactions associated to their goods sold on the network for 5 years.
 
 ### Consumers ###
 Consumers review listed goods on the network.  Open a CONTRACT with the network to purchase a good listed an inventor.  Consumers must list a BID amount which he is following to pay for the good.
@@ -110,11 +104,10 @@ Suppliers, Manufacturers, Logistics do not have access to view BID amount.
 
 * Restrictions:  The consumer must have tokens balance equal to his bid amount plus 2.5% of BID amount in order to open contract.
 
-
 ### Suppliers ###
-Suppliers subscribe to open contracts and agreed to source parts in order to manufacture listed goods. Suppliers must provide ASK amount for parts they are willing to sell.
+Suppliers (Distributors, Retailers) subscribe to open contracts and agreed to source parts in order to manufacture listed goods. Suppliers must provide ASK amount for parts they are willing to sell.
 
-ASK Amount is only visible between the suppliers and the network.
+* ASK Amount is only visible between the suppliers and the network.
 
 * Penalty Fees: 1.5% of ASK Amount will be deducted by the network should suppliers ship defective parts.
 
@@ -123,7 +116,7 @@ ASK Amount is only visible between the suppliers and the network.
 ### Manufacturers ###
 Manufacturers subscribe to open contracts and place ASK amount for their labor and services.
 
-Manufacturing ASK Amount is only visible between the manufacturers and the network.
+* Manufacturing ASK Amount is only visible between the manufacturers and the network.
 
 * Penalty Fees: 1.5% of ASK Amount will be deducted by the network should manufacturers fail to delivery functional goods to consumer.
 
@@ -142,11 +135,11 @@ NETWORK calculate optimal scenario and approve contracts based on various factor
 
 ## Rewards ##
 
-Network fees and penalty Fees getting added to the network reward pool, which get distributed to all participants at the end of every month.
+* Network fees and penalty Fees getting added to the network reward pool, which get distributed to all participants at the end of every month.
 
-Reward calculations is based on 50% Proof of Stake and 50% Proof of Activities.
+* Reward calculations is based on 50% Proof of Stake and 50% Proof of Activities.
 
-Participants get more reward if they have more tokens in the wallet and for being active members of the network.
+* Participants get more reward if they have more tokens in the wallet and for being active members of the network.
 
 ## About Us ##
 OM.NETWORK is being developed by a small team of blockchain developers.
