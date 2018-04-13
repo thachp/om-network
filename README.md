@@ -85,13 +85,15 @@ https://www.oxfam.org/sites/www.oxfam.org/files/file_attachments/bp-economy-for-
 
 ## How the network works? ##
 
-1. Inventors list goods on the network.   
+1. Inventors list goods on the network to be consumed.
 
 2. Consumers browse listed goods, open contracts with the network at price willing to pay for goods.
 
-3. Participants bid to fulfill specific parts of the contract at price willing to sell for services.
+3. Participants bid to fulfill specific clause of the contract at price willing to sell for services.
 
-4.  Network
+4. Network calculate optimal solutions and award contract to participants. Network aims to provide best pricing, and earliest delivery time to consumer.
+
+5. Participants fulfill their contractual obligations.
 
 Inventors forgoes their intellectual property rights to the network.  In returns, the network guaranteed 1% rewards for every transactions associated their goods sold by the network for 5 years.
 
