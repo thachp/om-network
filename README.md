@@ -122,15 +122,14 @@ Manufacturers subscribe to open contracts and place ASK amount for their labor a
 * Restrictions: Manufacturers must provide collateral equal to their ASK amount. Manufacturers must brand the finished goods as OMN with QRCODE linking to contract detail.
 
 ### How the network reward contracts? ###
-NETWORK calculate optimal scenario and approve contracts based on various factors; cost of parts, manufacturing cost, shipping cost, participants reputation, geographical region, and so forth.  Network aims to provide best pricing, and earliest delivery time of goods consumer.
+NETWORK calculate optimal scenario and approve contracts based on various factors; cost of parts, manufacturing cost, shipping cost, participants reputation, geographical region, and so forth.  Network aims to provide best pricing, and earliest delivery time of goods.
 
 ## Fees ##
 * 2.5% Network fees for opening contracts.
 
 ## Penalties ##
-* 1.5% Penalty fees if suppliers / manufacturers fail to meet their contract obligations.
-
-* 1% Penalty fees if consumer void a contract
+* 1.5% Penalty fees if suppliers / manufacturers fail to meet their  obligations.
+* 1% Penalty fees if consumers void contracts
 
 ## Rewards ##
 * Network fees and penalty Fees getting added to the network reward pool, which get distributed to all participants at the end of every month.
